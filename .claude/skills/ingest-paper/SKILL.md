@@ -23,6 +23,20 @@ description: "Ingest research paper PDFs into the library. Use when the user say
 
 5. **Append to `library/ingestion-log.md`**: `- YYYY-MM-DD: <bib-key> — <paper title>`
 
-6. **Clean up:** `mv "<pdf>" library/inbox/.processed/`
+6. **Create wiki source page** at `wiki/EngBio/sources/papers/<bib-key>.md`. Read `wiki/EngBio/SCHEMA.md` for format conventions. The wiki page must:
+   - Have YAML frontmatter: `tags`, `sources: 1`, `created`, `updated`, `status: developing`
+   - Include a one-paragraph abstract/summary
+   - List key findings as bullets
+   - Link to relevant wiki concept/entity pages using `[[concepts/page-name]]` and `[[entities/page-name]]` — read `wiki/EngBio/index.md` to find which pages exist
+   - Include a PDF reference line: `**PDF:** [Open](file:///Users/jackdalton/Desktop/claude-research-buddy/library/papers/<bib-key>/paper.pdf)`
+   - Include a library reference line: `**Library:** \`library/papers/<bib-key>/\``
 
-7. **Commit and push:** `cd library && git add papers/<bib-key>/ library.bib keywords.txt ingestion-log.md && git commit -m "Ingest: <bib-key>" && git push`
+7. **Update existing wiki pages.** For each concept/entity page the paper informs: append a brief finding with a citation link `[[sources/papers/<bib-key>|Author et al. YYYY]]`. Increment the `sources` frontmatter field on each updated page.
+
+8. **Update `wiki/EngBio/index.md`** — add a row for the new paper under "Sources — Papers".
+
+9. **Append to `wiki/EngBio/log.md`**: `## [YYYY-MM-DD] ingest-paper | <bib-key> — <title>`
+
+10. **Clean up:** `mv "<pdf>" library/inbox/.processed/`
+
+11. **Commit and push:** `cd library && git add papers/<bib-key>/ library.bib keywords.txt ingestion-log.md && git commit -m "Ingest: <bib-key>" && git push`
