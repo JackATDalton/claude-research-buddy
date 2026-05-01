@@ -18,7 +18,7 @@ First-time users: run `scripts/setup.sh` to create your research context, librar
 
 ## Structure
 
-- `.claude/skills/` — research skills: lit-review, reassess, plan, theory, experiment, write, critique, brainstorm, pipeline, ingest-paper, wiki-ingest, wiki-query, wiki-lint, field-knowledge, daily, start-experiment, close-experiment, write-section, experiment-design
+- `.claude/skills/` — research skills: lit-review, reassess, plan, theory, experiment, write, critique, brainstorm, pipeline, ingest-paper, wiki-ingest, wiki-query, wiki-lint, field-knowledge, daily, start-experiment, close-experiment, write-section, experiment-design, explain
 - `wiki/EngBio/` — Obsidian vault (symlink to OneDrive). The persistent knowledge wiki. Read `wiki/EngBio/SCHEMA.md` for conventions.
   - `wiki/EngBio/index.md` — catalog of all wiki pages; read this first when searching the wiki
   - `wiki/EngBio/log.md` — append-only record of all wiki operations
