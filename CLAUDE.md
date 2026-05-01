@@ -22,9 +22,8 @@ First-time users: run `scripts/setup.sh` to create your research context, librar
 - `wiki/EngBio/` — Obsidian vault (symlink to OneDrive). The persistent knowledge wiki. Read `wiki/EngBio/SCHEMA.md` for conventions.
   - `wiki/EngBio/index.md` — catalog of all wiki pages; read this first when searching the wiki
   - `wiki/EngBio/log.md` — append-only record of all wiki operations
-  - `wiki/EngBio/concepts/` — scientific/theoretical concept pages
   - `wiki/EngBio/entities/` — machines, organisms, systems, people
-  - `wiki/EngBio/topics/` — broad synthesis across concepts
+  - `wiki/EngBio/topics/` — all scientific/theoretical concepts, technical references, and cross-cutting synthesis. Related topics may be grouped into subfolders (e.g. `topics/python/`). There is no separate `concepts/` directory.
   - `wiki/EngBio/synthesis/` — comparisons, analyses, open questions
   - `wiki/EngBio/sources/papers/` — one page per ingested academic paper (summary + PDF link)
   - `wiki/EngBio/sources/articles/` — clipped web articles, blog posts, podcast notes

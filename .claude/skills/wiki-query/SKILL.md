@@ -18,7 +18,7 @@ Read each identified page in full. Note: read `wiki/EngBio/SCHEMA.md` if convent
 
 ### 3. Synthesise an answer
 
-Write a direct, structured answer drawing from the wiki pages. Use `[[wiki links]]` as inline citations — e.g., "The fitness trajectory follows a power-law ([[concepts/ltee|LTEE]])." 
+Write a direct, structured answer drawing from the wiki pages. Use `[[wiki links]]` as inline citations — e.g., "The fitness trajectory follows a power-law ([[topics/ltee|LTEE]])." 
 
 Mark gaps explicitly: "No wiki page exists yet for X — consider `/wiki-ingest` or `/ingest-paper`."
 
@@ -34,7 +34,7 @@ After answering, ask: "Should I file this as a wiki page?"
 
 File it if:
 - The answer is a substantive comparison or analysis (→ `synthesis/`)
-- The answer surfaces a new conceptual synthesis (→ `topics/` or `concepts/`)
+- The answer surfaces a new conceptual synthesis (→ `topics/`, using a subfolder if it belongs to a cluster)
 - The answer identifies an important open question worth tracking
 
 If filing:

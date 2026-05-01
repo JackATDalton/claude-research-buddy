@@ -70,7 +70,7 @@ Draft a structured experiment proposal for the user to review:
 **Priority suggestion:** High | Medium | Low
 **Reason:** <why this experiment, why now>
 
-**Wiki pages this would inform:** concepts/..., entities/ltem, ...
+**Wiki pages this would inform:** topics/..., entities/ltem, ...
 ```
 
 Present this to the user. Iterate until approved.

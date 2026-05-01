@@ -27,7 +27,7 @@ description: "Ingest research paper PDFs into the library. Use when the user say
    - Have YAML frontmatter: `tags`, `sources: 1`, `created`, `updated`, `status: developing`
    - Include a one-paragraph abstract/summary
    - List key findings as bullets
-   - Link to relevant wiki concept/entity pages using `[[concepts/page-name]]` and `[[entities/page-name]]` — read `wiki/EngBio/index.md` to find which pages exist
+   - Link to relevant wiki topic/entity pages using `[[topics/page-name]]` and `[[entities/page-name]]` — read `wiki/EngBio/index.md` to find which pages exist. Use subfolder paths where applicable: `[[topics/python/gui-primer]]`.
    - Include a PDF reference line: `**PDF:** [Open](file:///Users/jackdalton/Desktop/claude-research-buddy/library/papers/<bib-key>/paper.pdf)`
    - Include a library reference line: `**Library:** \`library/papers/<bib-key>/\``
 

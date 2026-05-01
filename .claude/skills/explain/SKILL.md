@@ -41,10 +41,9 @@ Always file the explanation as a wiki page. Determine the right location:
 
 | Concept type | Directory |
 |---|---|
-| Scientific/theoretical concept | `wiki/EngBio/concepts/` |
+| Scientific/theoretical concept or technical reference | `wiki/EngBio/topics/` (use a subfolder for related clusters, e.g. `topics/python/`) |
 | Machine, system, organism, codebase module | `wiki/EngBio/entities/` |
 | Cross-cutting synthesis across concepts | `wiki/EngBio/synthesis/` |
-| Broad topic spanning multiple concepts | `wiki/EngBio/topics/` |
 
 If a page already exists, **update it** rather than creating a new one.
 

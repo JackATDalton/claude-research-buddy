@@ -56,22 +56,22 @@ Produce a structured lint report:
 - [[link]] in file/path.md
 
 ### Stale claims (N)
-- "(speculative)" in concepts/fitness-landscapes.md: "..."
+- "(speculative)" in topics/fitness-landscapes.md: "..."
 
 ### Missing from index (N)
 - wiki/EngBio/...
 
 ### Stub pages >30 days old (N)
-- concepts/... (created: YYYY-MM-DD)
+- topics/... (created: YYYY-MM-DD)
 
 ### Wanted pages (N)
-- [[concepts/page-name]] — referenced from X, Y, Z
+- [[topics/page-name]] — referenced from X, Y, Z
 
 ### Source count drift (N)
-- concepts/ltee.md — frontmatter says 5, body has 3 citations
+- topics/ltee.md — frontmatter says 5, body has 3 citations
 
 ### Suggested cross-links
-- concepts/ltee.md ↔ entities/ltem.md (both mention "continuous culture")
+- topics/ltee.md ↔ entities/ltem.md (both mention "continuous culture")
 
 ### Recommended next actions
 1. ...

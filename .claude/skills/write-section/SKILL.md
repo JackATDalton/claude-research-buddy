@@ -25,10 +25,10 @@ Read `research/writing-style.md` before drafting anything.
 Run `scripts/wiki-search.sh "<section topic keywords>"` across the wiki. Also check `wiki/EngBio/index.md` for directly relevant pages. Read all relevant pages in full — these are the primary source for what to write.
 
 **Topic → wiki page mapping (common cases):**
-- "LTEE" / "evolutionary dynamics" → `concepts/ltee.md`, `concepts/evolutionary-dynamics.md`
-- "fitness landscape" / "drift" → `concepts/fitness-landscapes.md`
-- "continuous culture" / "chemostat" / "LTEM" → `concepts/continuous-culture-evolution.md`, `entities/ltem.md`
-- "active learning" / "Bayesian" → `concepts/active-learning-biology.md`
+- "LTEE" / "evolutionary dynamics" → `topics/ltee.md`, `topics/evolutionary-dynamics.md`
+- "fitness landscape" / "drift" → `topics/fitness-landscapes.md`
+- "continuous culture" / "chemostat" / "LTEM" → `topics/continuous-culture-evolution.md`, `entities/ltem.md`
+- "active learning" / "Bayesian" → `topics/active-learning-biology.md`
 - "modelling" / "simulation" → search wiki for modelling pages
 
 ### 3. Load library papers

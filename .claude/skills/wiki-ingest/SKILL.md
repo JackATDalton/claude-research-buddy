@@ -47,13 +47,13 @@ Use `/ingest-paper` for academic PDFs. This skill handles everything else: web a
    One paragraph connecting to Jack's research.
 
    ## Related wiki pages
-   - [[concepts/relevant-concept]]
+   - [[topics/relevant-topic]]
    - [[entities/relevant-entity]]
    ```
 
 6. **Update existing wiki pages.** For each concept/entity page the source informs: append a finding with a `[[sources/articles/<slug>|Source title]]` citation. Increment the `sources` frontmatter field on each updated page.
 
-7. **Create new concept/entity pages** if the source introduces something not yet in the wiki. Follow the format in `SCHEMA.md`. Then add them to `index.md`.
+7. **Create new topic/entity pages** if the source introduces something not yet in the wiki. Topics go in `topics/` (use a subfolder like `topics/python/` if the page belongs to a cluster of related topics). Follow the format in `SCHEMA.md`. Then add them to `index.md`.
 
 8. **Update `wiki/EngBio/index.md`** — add a row under "Sources — Articles".
 

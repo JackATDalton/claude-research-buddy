@@ -31,7 +31,7 @@ In parallel:
 
 Run `scripts/wiki-search.sh "<experiment topic keywords>"` to find relevant wiki pages. Also check:
 - `wiki/EngBio/entities/ltem.md` — always relevant for LTEM experiments
-- Any concept pages related to the experimental variable (temperature → `concepts/continuous-culture-evolution.md`, fitness → `concepts/fitness-landscapes.md`)
+- Any topic pages related to the experimental variable (temperature → `topics/continuous-culture-evolution.md`, fitness → `topics/fitness-landscapes.md`)
 
 Read the relevant pages.
 
@@ -71,7 +71,7 @@ If `Analysis Scripts` URL is already set in Notion, note the existing script pat
 <Results Files URL or path from Notion>
 
 ## Relevant wiki context
-- [[concepts/...]] — one line summary
+- [[topics/...]] — one line summary
 - [[entities/ltem]] — ...
 
 ## Analysis plan
@@ -95,7 +95,7 @@ Data: <Results Files URL or "not set — add path to Notion">
 Analysis Scripts: <URL or "not set — will scaffold">
 
 Wiki context loaded:
-- concepts/ltee — ...
+- topics/ltee — ...
 - entities/ltem — ...
 
 Analysis directory: projects/experiments/<slug>/
