@@ -18,7 +18,7 @@ First-time users: run `scripts/setup.sh` to create your research context, librar
 
 ## Structure
 
-- `.claude/skills/` — research skills: lit-review, reassess, plan, theory, experiment, write, critique, brainstorm, pipeline, ingest-paper, wiki-ingest, wiki-query, wiki-lint, field-knowledge, daily, start-experiment, close-experiment, write-section, experiment-design, explain
+- `.claude/skills/` — research skills: lit-review, reassess, plan, theory, experiment, write, critique, brainstorm, pipeline, ingest-paper, wiki-ingest, wiki-query, wiki-lint, field-knowledge, daily, start-experiment, close-experiment, write-section, experiment-design, explain, plot-to-notion
 - `wiki/EngBio/` — Obsidian vault (symlink to OneDrive). The persistent knowledge wiki. Read `wiki/EngBio/SCHEMA.md` for conventions.
   - `wiki/EngBio/index.md` — catalog of all wiki pages; read this first when searching the wiki
   - `wiki/EngBio/log.md` — append-only record of all wiki operations
@@ -27,6 +27,8 @@ First-time users: run `scripts/setup.sh` to create your research context, librar
   - `wiki/EngBio/synthesis/` — comparisons, analyses, open questions
   - `wiki/EngBio/sources/papers/` — one page per ingested academic paper (summary + PDF link)
   - `wiki/EngBio/sources/articles/` — clipped web articles, blog posts, podcast notes
+  - `wiki/EngBio/sources/experiments/` — one page per experiment: hypothesis, embedded figures, findings
+  - `wiki/EngBio/assets/figures/` — figures copied from experiment analysis sessions (one subfolder per slug)
   - `wiki/EngBio/raw/` — drop zone for unprocessed article sources
 - `library/` — paper library. Each paper has `summary.md` (overview) and `extracted.md` (full structured extraction) — read `extracted.md` when you need specific details, equations, or results beyond the summary. Bib entries (with keywords) in `library/library.bib`. Canonical keyword list in `library/keywords.txt`.
 - `projects/<name>/` — one folder per research problem. Each is an **independent git repo**.
