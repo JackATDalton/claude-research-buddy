@@ -4,7 +4,7 @@
 #
 # Returns: matching file paths with 2 lines of context around each match.
 
-WIKI="$(cd "$(dirname "$0")/.." && pwd)/wiki/EngBio"
+WIKI="$(cd -P "$(dirname "$0")/../wiki/EngBio" && pwd)"  # -P: macOS grep -r will not descend a symlinked root
 
 if [ -z "$1" ]; then
   echo "Usage: $0 <query> [--titles-only]" >&2
@@ -14,11 +14,11 @@ fi
 QUERY="$1"
 
 if [ "$2" = "--titles-only" ]; then
-  grep -r -i -l "$QUERY" "$WIKI" --include="*.md" \
+  grep -r -i -l "$QUERY" "$WIKI" --include="*.md" --exclude-dir=.obsidian \
     | grep -v "SCHEMA.md\|/raw/\|/.processed/" \
     | sort
 else
-  grep -r -i -l "$QUERY" "$WIKI" --include="*.md" \
+  grep -r -i -l "$QUERY" "$WIKI" --include="*.md" --exclude-dir=.obsidian \
     | grep -v "SCHEMA.md\|/raw/\|/.processed/" \
     | sort \
     | while read -r f; do
