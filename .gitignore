@@ -28,3 +28,7 @@ research/problem-repository.md
 # Projects and library — independent repos / user data
 projects/
 library
+.DS_Store
+.Rhistory
+.RData
+*.FCBak
